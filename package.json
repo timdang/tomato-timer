@@ -18,7 +18,7 @@
   "activationCommands": {
     "atom-workspace": "tomato-timer:startup"
   },
-  "repository": "https://github.com/atom/tomato-timer",
+  "repository": "https://github.com/timdang/tomato-timer.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
