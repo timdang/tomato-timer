@@ -1,0 +1,30 @@
+{
+  "name": "tomato-timer",
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "main": "./lib/tomato-timer",
+  "version": "0.1.0",
+  "description": "A productivity timer using the Pomodoro Technique.",
+  "keywords": [
+    "pomodoro",
+    "time management",
+    "productivity"
+  ],
+  "activationCommands": {
+    "atom-workspace": "tomato-timer:startup"
+  },
+  "repository": "https://github.com/atom/tomato-timer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb": "^6.1.0"
+  }
+}

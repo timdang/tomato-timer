@@ -1,0 +1,32 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {type: 'separator'}
+    {
+      'label': 'Start Tomato Timer'
+      'command': 'tomato-timer:startup'
+    }
+    {
+      'label': 'Cancel Tomato Timer'
+      'command': 'tomato-timer:end'
+    }
+    {type: 'separator'}
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Tomato Timer'
+      'submenu': [
+        {
+          'label': 'Start'
+          'command': 'tomato-timer:startup'
+        }
+        {
+          'label': 'Cancel'
+          'command': 'tomato-timer:end'
+        }
+      ]
+    ]
+  }
+]
